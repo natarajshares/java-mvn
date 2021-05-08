@@ -9,7 +9,7 @@ node
   {
     echo "hello packaging..."
     //bat(/mvn package/)
-	sh 'mvn package'
+	sh 'mvn clean install'
   }
   
   
