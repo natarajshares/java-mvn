@@ -9,6 +9,7 @@ node
   {
     echo "hello packaging..."
     //bat(/mvn package/)
+	cat pom.xml
 	sh 'mvn package'
   }
   
