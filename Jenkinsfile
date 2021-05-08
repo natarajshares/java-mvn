@@ -12,12 +12,5 @@ node
 	sh 'mvn package'
   }
   
-  stage("Dockering")
-  {
-    echo "hello Dockering..."
-    //bat(/docker build -t java_app ./)
-	sh 'docker image rm java_app'
-	sh 'docker build -t java_app .'
-  }
   
 }
