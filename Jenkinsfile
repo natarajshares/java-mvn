@@ -4,7 +4,7 @@ node
   {
     //git "https://github.com/natarajshares/java-mvn"
     sh "git clone https://github.com/natarajshares/java-mvn.git"
-    sh "git branch && cd java-mvn && ls"
+    sh "ls"
   }
   
   stage("build")
