@@ -3,8 +3,9 @@ node
   stage("fetch")
   {
     //git "https://github.com/natarajshares/java-mvn"
+    sh 'rm -r java-mvn || echo "hi"'
     sh "git clone https://github.com/natarajshares/java-mvn.git"
-    sh "ls"
+    sh "cd java-mvn"
   }
   
   stage("build")
