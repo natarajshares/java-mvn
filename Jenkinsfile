@@ -2,7 +2,7 @@ node
 {
   stage("fetch")
   {
-    git "https://github.com/G-Gowtham/java-automation.git"
+    git "https://github.com/natarajshares/java-mvn"
   }
   
   stage("build")
